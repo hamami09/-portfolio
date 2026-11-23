@@ -1,0 +1,303 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HAMAMI Family Safety Monitor — pengembangan sistem pemantauan perangkat keluarga berbasis Android dengan izin dan transparansi.">
+    <meta name="theme-color" content="#080d19">
+
+    <title>Family Safety Monitor — HAMAMI</title>
+
+    <link rel="stylesheet" href="../assets/style.css">
+    <link rel="stylesheet" href="../assets/project-detail.css">
+</head>
+
+<body>
+<div class="ambient ambient-one"></div>
+<div class="ambient ambient-two"></div>
+
+<header class="site-header">
+    <a class="brand" href="../index.html">
+        <span class="brand-mark">HM</span>
+        <span>HAMAMI<span class="brand-dot">.</span></span>
+    </a>
+
+    <a class="back-home" href="../index.html#projects">
+        ← Kembali ke proyek
+    </a>
+</header>
+
+<main>
+
+    <!-- HERO -->
+    <section class="detail-hero section">
+
+        <div class="section-kicker">
+            PROJECT 02 / DETAIL PROYEK
+        </div>
+
+        <div class="detail-status">
+            Integrasi dalam pengembangan
+        </div>
+
+        <h1>HAMAMI <span class="gradient-text">Family Safety Monitor</span></h1>
+
+        <p class="detail-lead">
+            Pengembangan sistem terpadu yang menggabungkan komunikasi
+            perangkat Android, pengelolaan notifikasi, dan akses kamera
+            jarak jauh melalui jaringan privat. Dirancang untuk mendukung
+            pemantauan perangkat keluarga secara transparan dengan izin
+            dari pemilik perangkat.
+        </p>
+
+        <div class="tags detail-tags">
+            <span>Kotlin</span>
+            <span>Android</span>
+            <span>Python</span>
+            <span>FastAPI</span>
+            <span>SQLite</span>
+            <span>ADB</span>
+            <span>Tailscale</span>
+        </div>
+
+    </section>
+
+
+    <!-- CONTENT -->
+    <section class="section detail-content">
+
+        <div class="detail-grid">
+
+            <!-- BACKGROUND -->
+            <article class="detail-panel">
+
+                <div class="section-kicker">
+                    01 / LATAR BELAKANG
+                </div>
+
+                <h2>Satu sistem dengan <span class="gradient-text">dua kemampuan.</span></h2>
+
+                <p>
+                    Proyek ini berawal dari dua pengembangan terpisah:
+                    MyCameraRemote dan RemoteNotificationSystem.
+                    Keduanya memiliki tujuan teknis yang saling melengkapi,
+                    yaitu menghubungkan perangkat Android dengan komputer
+                    melalui jaringan privat.
+                </p>
+
+                <p>
+                    Pengembangan berikutnya diarahkan untuk menyatukan
+                    kedua komponen tersebut ke dalam satu ekosistem
+                    Family Safety Monitor.
+                </p>
+
+            </article>
+
+
+            <!-- CAMERA -->
+            <article class="detail-panel">
+
+                <div class="section-kicker">
+                    02 / REMOTE CAMERA
+                </div>
+
+                <h2>MyCameraRemote</h2>
+
+                <p>
+                    Komponen untuk mengeksplorasi komunikasi dan akses
+                    kamera perangkat Android dari komputer melalui
+                    koneksi jarak jauh.
+                </p>
+
+                <ul>
+                    <li>Eksperimen aplikasi pendamping Android.</li>
+                    <li>Koneksi perangkat melalui jaringan privat Tailscale.</li>
+                    <li>Pengujian konektivitas dan debugging menggunakan ADB.</li>
+                    <li>Eksplorasi akses kamera dengan izin dan indikator yang jelas pada perangkat.</li>
+                    <li>Pengujian kompatibilitas pada beberapa perangkat Android.</li>
+                </ul>
+
+            </article>
+
+
+            <!-- NOTIFICATION -->
+            <article class="detail-panel">
+
+                <div class="section-kicker">
+                    03 / NOTIFICATION SYSTEM
+                </div>
+
+                <h2>RemoteNotificationSystem</h2>
+
+                <p>
+                    Komponen untuk menerima, mengirim, menyimpan, dan
+                    menampilkan event notifikasi Android pada panel
+                    komputer melalui server.
+                </p>
+
+                <ul>
+                    <li>Backend server menggunakan FastAPI.</li>
+                    <li>Penyimpanan event menggunakan SQLite.</li>
+                    <li>Panel kontrol PC berbasis desktop.</li>
+                    <li>Penerimaan notifikasi melalui izin Notification Access Android.</li>
+                    <li>Pengujian pengiriman event dan deteksi duplikasi.</li>
+                    <li>Penanganan antrean ketika perangkat offline.</li>
+                </ul>
+
+            </article>
+
+
+            <!-- INTEGRATION -->
+            <article class="detail-panel">
+
+                <div class="section-kicker">
+                    04 / SISTEM TERINTEGRASI
+                </div>
+
+                <h2>Menuju satu ekosistem.</h2>
+
+                <p>
+                    Tujuan integrasi adalah membangun komunikasi antara
+                    aplikasi Android, server, dan panel komputer agar
+                    pengelolaan perangkat dapat dilakukan melalui
+                    satu alur yang lebih terstruktur.
+                </p>
+
+                <ul>
+                    <li>Komunikasi Android dengan server.</li>
+                    <li>Pengelolaan event notifikasi.</li>
+                    <li>Konektivitas jarak jauh melalui jaringan privat.</li>
+                    <li>Pengembangan antarmuka pengendali PC.</li>
+                    <li>Eksplorasi integrasi komponen kamera dan notifikasi.</li>
+                </ul>
+
+            </article>
+
+
+            <!-- TECHNOLOGY -->
+            <article class="detail-panel">
+
+                <div class="section-kicker">
+                    05 / TEKNOLOGI
+                </div>
+
+                <h2>Tools & teknologi.</h2>
+
+                <p>
+                    Teknologi yang digunakan dalam pengembangan
+                    masing-masing komponen proyek:
+                </p>
+
+                <div class="tags">
+                    <span>Kotlin</span>
+                    <span>Android SDK</span>
+                    <span>Python</span>
+                    <span>FastAPI</span>
+                    <span>SQLite</span>
+                    <span>Tailscale</span>
+                    <span>ADB</span>
+                    <span>Windows</span>
+                </div>
+
+            </article>
+
+
+            <!-- PRIVACY -->
+            <article class="detail-panel">
+
+                <div class="section-kicker">
+                    06 / PRIVASI & KEAMANAN
+                </div>
+
+                <h2>Teknologi dengan <span class="gradient-text">tanggung jawab.</span></h2>
+
+                <p>
+                    Family Safety Monitor dikembangkan dengan prinsip
+                    transparansi dan persetujuan pemilik perangkat.
+                    Akses kamera tidak dirancang untuk dilakukan secara
+                    diam-diam atau tanpa sepengetahuan pengguna.
+                </p>
+
+                <ul>
+                    <li>Akses kamera memerlukan izin pemilik perangkat.</li>
+                    <li>Penggunaan akses notifikasi harus disetujui melalui pengaturan Android.</li>
+                    <li>Data yang diteruskan dibatasi pada informasi yang telah diizinkan.</li>
+                    <li>Koneksi jarak jauh menggunakan jaringan privat.</li>
+                    <li>Penggunaan sistem ditujukan untuk perangkat yang dimiliki atau digunakan dengan persetujuan pemiliknya.</li>
+                </ul>
+
+            </article>
+
+
+            <!-- LEARNING -->
+            <article class="detail-panel">
+
+                <div class="section-kicker">
+                    07 / PROSES PENGEMBANGAN
+                </div>
+
+                <h2>Belajar membangun sistem terpadu.</h2>
+
+                <p>
+                    Proyek ini menjadi sarana pembelajaran dalam
+                    pengembangan aplikasi Android, komunikasi
+                    client-server, pengelolaan database, konektivitas
+                    jaringan, serta integrasi beberapa komponen
+                    perangkat lunak.
+                </p>
+
+                <p>
+                    Tantangan utama mencakup kompatibilitas Android,
+                    kestabilan koneksi jarak jauh, pengelolaan izin,
+                    dan sinkronisasi data antarperangkat.
+                </p>
+
+            </article>
+
+        </div>
+
+
+        <!-- STATUS -->
+        <div class="project-disclaimer">
+            <strong>Catatan status:</strong>
+            Family Safety Monitor merupakan proyek integrasi yang masih
+            dalam pengembangan. MyCameraRemote dan RemoteNotificationSystem
+            sebelumnya dikembangkan sebagai dua prototipe terpisah.
+            Integrasi menyeluruh, pengujian lintas perangkat, serta
+            penyempurnaan keamanan masih menjadi bagian dari proses
+            pengembangan.
+        </div>
+
+
+        <a class="button button-primary detail-back" href="../index.html#projects">
+            ← Kembali melihat semua proyek
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <a class="brand" href="../index.html">
+        <span class="brand-mark">HM</span>
+        <span>HAMAMI<span class="brand-dot">.</span></span>
+    </a>
+
+    <span>
+        © <span id="year"></span> HAMAMI. Dibuat dengan semangat belajar.
+    </span>
+
+    <a href="#top"
+       onclick="window.scrollTo({top:0,behavior:'smooth'});return false;">
+        Kembali ke atas ↑
+    </a>
+
+</footer>
+
+<script src="../assets/script.js"></script>
+
+</body>
+</html>
